@@ -1,0 +1,86 @@
+.hero{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.heroLeft{
+  width: 50%;
+  height: 100%;
+  padding-top: 6.8125rem;
+  border: transparent .1875rem solid;
+}
+
+.heroLeft h1{
+  font-size: 100px;
+  color: #365567;
+  margin-bottom: 2.5625rem;
+}
+
+.heroLeft p{
+  font-size: 1.5rem  ;
+  color: #486D7B;
+  margin-bottom: 2rem;
+}
+
+.heroLeft button{
+  width: 14.4375rem;
+  height: 3.5625rem;
+  font-size: 1.5rem;
+  background-color: #365567;
+  color: white;
+
+  &:hover{
+    background-color: #2B75A0;
+  }
+}
+
+.heroRight{
+  width: 50%;
+  height: 100%;
+  padding-top: 6.8125rem;
+  border: transparent .1875rem solid;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.heroRightImgBackground{
+  width: 400px;
+  height: 600px;
+  border-top-left-radius: 120px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 120px;
+  border-bottom-left-radius: 40px;
+  background-color: #486D7B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width : 768px) {
+  .hero{
+    flex-direction: column;
+  }
+
+  .heroLeft{
+    width: 70%;
+    text-align: center;
+    padding-top: 4.375rem;
+  }
+
+  .heroRight{
+    width: 70%;
+    padding-top: 4.375rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .heroRightImgBackground{
+      width: 100%;
+      border-top-left-radius: 140px;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 140px;
+      border-bottom-left-radius: 50px;
+  }
+}

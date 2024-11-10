@@ -1,0 +1,50 @@
+export const cardData = [
+  {
+    id: 1,
+    backgoundColor : "#blue",
+    src : "/myImage/card1.png",
+    heading : "Regular fit long sleeve suit",
+    price : "$66.99",
+    rating : 5,
+  },
+  {
+    id: 2,
+    backgoundColor : "#90CDCC",
+    src : "/myImage/card2.png",
+    heading : "Regular fit long sleeve suit",
+    price : "$55.99",
+    rating : 4,
+  },
+  {
+    id: 3,
+    backgoundColor : "#A2E5E0",
+    src : "/myImage/card3.png",
+    heading : "Regular fit long sleeve suit",
+    price : "$70.99",
+    rating : 2,
+  },
+  {
+    id: 4,
+    backgoundColor : "#7EB5B8",
+    src : "/myImage/card4.png",
+    heading : "Regular fit long sleeve suit",
+    price : "$75.99",
+    rating : 5,
+  },
+  {
+    id: 5,
+    backgoundColor : "#90CDCC",
+    src : "/myImage/card5.png",
+    heading : "Regular fit long sleeve suit",
+    price : "$55.99",
+    rating : 3,
+  },
+  {
+    id: 6,
+    backgoundColor : "#A2E5E0",
+    src : "/myImage/card6.png",
+    heading : "Regular fit long sleeve suit",
+    price : "$33.99",
+    rating : 5,
+  }
+]

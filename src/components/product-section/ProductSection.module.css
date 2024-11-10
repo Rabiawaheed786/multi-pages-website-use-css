@@ -1,0 +1,50 @@
+.product{
+  margin: auto;
+  width: 100%;
+  display: grid;
+  margin-bottom: 50px;
+  gap: 25px;
+  grid-template-columns:  repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.topImgDiv{
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.cardImg{
+  width: 300px;
+  height: 450px;
+
+  &:hover{
+    transform: scale(1.02);
+  }
+}
+
+.bottomTextDiv{
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 14px;
+padding-bottom: 20px;
+}
+
+.starDiv{
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.bottomTextDiv p{
+  font-size: 26px;
+}
